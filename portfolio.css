@@ -1,0 +1,547 @@
+body,.overflow
+{
+    overflow: hidden;
+}
+.back-ground
+{
+    background-image:linear-gradient(rgba(0,0,0.2,0.2),rgba(0,0,0.5,0.5)),url(https://bootstrapmade.com/demo/templates/iPortfolio/assets/img/hero-bg.jpg) ;
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-color: #6aaf6aad;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+    margin-left: -12px;
+}
+.adjust
+{
+    overflow-x:hidden;
+    overflow-y: hidden;
+}
+.about
+{
+    overflow-x: none;
+}
+.styl-1
+{
+    background: #040b14 !important;
+}
+.styl-1 img
+{
+border: 8px solid #2c2f3f !important;
+margin: 10% 0 0 30%;
+}
+.list-style-2 li span
+{
+    transform: translateY(5px);
+}
+
+.list-style-2 li a:hover
+{
+    color: #fff !important;
+    cursor: pointer;
+}
+.list-style-2 li span:hover
+{
+    color: blue !important;
+    cursor: pointer;
+}
+.list li i
+{
+   transition: all 0.3s ease-in-out;
+}
+.list li i:hover
+{
+    background-color: #149ddd !important;
+    color: #fff !important;
+    cursor: pointer;
+}
+.txt
+{
+    color: #173b6c !important;
+    position: relative;
+}
+.txt::before
+{
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 3px;
+    background: #149ddd;
+    bottom:-19%;
+    left:0%;
+}
+.txt1
+{
+  font-size: 15px; 
+}
+.txt2
+{
+    padding-top: 240px;
+    padding-left: 200px;
+    font-size: 70px;
+    position: relative;
+    width: 400px;
+}
+.txt2:hover
+{
+    cursor: pointer;
+}
+.txt2::after
+{
+    content: '';
+    width: 0px;
+    height:5px;
+    background: #fff;
+    position: absolute;
+    left: 207px;
+    top: 325px;
+    transition: all 0.4s ease-in-out;
+}
+.txt2:hover::after
+{
+    width: 130px;
+    cursor: pointer;
+}
+.txt3
+{
+    color: #173b6c !important;
+}
+.list-1 ol li i 
+{
+    color: #149ddd !important;
+}
+.fact-txt
+{
+    color: #173b6c !important;
+    position: relative;
+}
+.fact-txt::before
+{
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 3px;
+    background: #149ddd;
+    bottom:-20%;
+    left:0%;
+}
+.fact-txt1
+{
+  font-size: 15px; 
+}
+.size li
+{
+    color: grey;
+}
+.size li i
+{
+    font-size: 40px;
+    color: #149ddd;
+    animation-name: color;
+    animation-timing-function: ease-in-out;
+    animation-duration:3s;
+    animation-iteration-count: infinite;
+}
+@keyframes color
+{
+    0%
+    {
+        color: #149ddd;
+    }
+    25%
+    {
+        color: #dd14ab;
+    }
+    50%
+    {
+        color: #1439dd;
+    }
+    75%
+    {
+        color: #2bdd14;
+    }
+    100%
+    {
+        color: #dfea0e;
+    }
+}
+.size li span
+{
+    font-size: 50px;
+    margin-left: 10px;
+    font-weight: 500;
+    color: #040b14;
+}
+.size li strong
+{
+    color: #173b6c;
+}
+.skills-txt
+{
+    color: #173b6c !important;
+    position: relative;
+}
+.skills-txt::before
+{
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 3px;
+    background: #149ddd;
+    bottom:-20%;
+    left:0.5%;
+}
+.skills-txt1
+{
+  font-size: 15px; 
+}
+.prg
+{
+    position: relative;
+}
+.prg::after
+{
+    content:'100%';
+    position:absolute;
+    bottom: 27px;
+    right: 15px;
+    font-size: 17px;
+    font-weight: 700;
+}
+.prg1
+{
+    position: relative;
+}
+.prg1::after
+{
+    content:'80%';
+    position:absolute;
+    bottom: 27px;
+    right: 15px;
+    font-size: 17px;
+    font-weight: 700;
+}
+.prg2
+{
+    position: relative;
+}
+.prg2::after
+{
+    content:'90%';
+    position:absolute;
+    bottom: 27px;
+    right: 15px;
+    font-size: 17px;
+    font-weight: 700;
+}
+.prg3
+{
+    position: relative;
+}
+.prg3::after
+{
+    content:'90%';
+    position:absolute;
+    bottom: 27px;
+    right: 15px;
+    font-size: 17px;
+    font-weight: 700;
+}
+.prg4
+{
+    position: relative;
+}
+.prg4::after
+{
+    content:'75%';
+    position:absolute;
+    bottom: 27px;
+    right: 15px;
+    font-size: 17px;
+    font-weight: 700;
+}
+.prg5
+{
+    position: relative;
+}
+.prg5::after
+{
+    content:'55%';
+    position:absolute;
+    bottom: 27px;
+    right: 15px;
+    font-size: 17px;
+    font-weight: 700;
+}
+.header
+{
+    border-left: 2px solid #1f5297;
+    padding-left: 30px;
+    position: relative;
+}
+.header::before
+{
+    content:'';
+    border: 2px solid #1f5297;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+   position: absolute;
+   left: -11px;
+   background-color: #fff;
+}
+.header1::before
+{
+    content:'';
+    border: 2px solid #1f5297;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+   position: absolute;
+   left: -11px;
+   top:0px;
+   background-color: #fff;
+}
+.education
+{
+    border-left: 2px solid #1f5297;
+    padding-left: 30px;
+    position: relative;
+}
+.header2::before
+{
+    content:'';
+    border: 2px solid #1f5297;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+   position: absolute;
+   left: -11px;
+   background-color: #fff;
+}
+
+.header3
+{
+    border-left: 2px solid #1f5297;
+    padding-left: 30px;
+    position: relative;
+}
+.header3::before
+{
+    content:'';
+    border: 2px solid #1f5297;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+   position: absolute;
+   left: -11px;
+   background-color: #fff;
+}
+.header4::before
+{
+    content:'';
+    border: 2px solid #1f5297;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+   position: absolute;
+   left: -11px;
+   background-color: #fff;
+}
+.portfolio-list
+{
+    width:35%;
+    background-color:#fff;
+    height:25px;
+}
+.portfolio-list li:hover
+{
+    color: #149ddd;
+    cursor: pointer;
+}
+.portfolio-list li:first-child
+{
+    color: #09adf9 !important;
+}
+.effects:hover
+{
+    opacity: 0.9;
+    cursor: pointer;
+}
+.effects:hover .effects1
+{
+    visibility: visible;
+    height: 40px;
+}
+.effects
+{
+    position: relative;
+}
+.effects1
+{
+    position: absolute;
+    background-color: #0c50ae;
+    opacity:0.8;
+    color: #fff;
+    font-size: 20px;
+    width: 300px;
+    height:0;
+    left:12px;
+    bottom: 0;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+.effects1 li
+{
+    width:100%;
+    text-align: center;
+}
+.effects1 li:hover
+{
+    background-color: #09adf9;
+    cursor: pointer;
+    opacity: 1;
+}
+.service-row-col div h4 i
+{
+    background-color: #09adf9 !important;
+    border: 1px solid #09adf9;
+    transition: all 0.3s ease-in-out;
+}
+.service-row-col div h4:hover
+{
+    color: #09adf9;
+    cursor: pointer;
+}
+.service-row-col div h4 i:hover
+{
+    background-color: #fff !important;
+    color: #09adf9 !important;
+    border: 1px solid #09adf9;
+}
+.contact-style h1 i
+{
+    padding: 10px;
+    font-size: 20px;
+    color: #09adf9 !important;
+    background-color: #60c5f463 !important;
+}
+.contact-button
+{
+    margin-left: 37%;
+}
+.tab-style-img img
+{
+    height:350px;
+     width:350px;
+}
+.shadow-cus
+{
+    
+    transition: all 0.3s ease-in-out;
+}
+.shadow-cus:hover
+{
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: 4px 4px 10px #000;
+}
+@media (min-width:991px) and (max-width:1024px)
+{
+.list li
+{
+   margin-right:-10px;
+}
+}
+@media (min-width:761px) and (max-width:991px)
+{
+.styl-1
+{
+    display:none;
+}
+.txt3
+{
+    text-align: center;
+}
+body
+{
+    margin-left:13vw;
+    width: 100%;
+}
+.portfolio-list
+{
+    width:43%;
+    padding-right: 20px;
+    padding-top: 2px;
+}
+.list-1 ol:first-child
+{
+    margin-left:17.5%; 
+    margin-bottom: -0.1%;       
+}
+.list-1 ol
+{
+    font-size: 20px;
+    margin-left: 10%;
+}
+.tab-style-img img
+{
+    margin-left:170px;
+    margin-bottom: 10px;
+}
+.list-1
+{
+    font-size: 18px;
+    padding: 10px;
+}
+.size
+{
+    margin-left: 50px;
+}
+.res-stly
+{
+    display:flow-root;
+}
+.top-2
+{
+   margin-top: 23px;
+}
+}
+@media (min-width:480px) and (max-width:761px)
+{
+.top-1
+{
+   margin-top: 15px;
+}
+.portfolio-list
+{
+    width:63%;
+    padding-right: 20px;
+    padding-top: 2px;
+}
+.effects
+{
+    margin-left: 10%;
+}
+.styl-1
+{
+    display:none;
+}
+body
+{
+    margin-left:25vw;
+}
+.list-1 ol:first-child
+{
+    margin-left:17.5%; 
+    margin-bottom: -0.1%;       
+}
+.list-1 ol
+{
+    margin-left: 5%;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+}
